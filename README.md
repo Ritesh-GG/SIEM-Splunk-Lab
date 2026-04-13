@@ -28,12 +28,16 @@ attack patterns.
 ## Screenshots
 
 ### SOC Detection Dashboard
+![Dashboard](Brute%20Force%20-%20Failed%20Login%20Attempts.png)
 
 ### Brute Force Detection
-![Brute Force](Brute Force - Failed Login Attempts.png)
+![Brute Force](Account%20Lockout%20Risk%20-%20Threshold%20Exceeded.png)
+
 ### Privilege Escalation Detection
+![Privilege Escalation](Privilege%20Escalation%20-%20Special%20Logon%20Events.png)
 
 ### Configured Alerts
+![Alerts](Configured%20Alerts.png)
 
 ## Key Skills Demonstrated
 - SIEM deployment and configuration
