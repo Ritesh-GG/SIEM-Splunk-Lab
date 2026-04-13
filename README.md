@@ -28,16 +28,12 @@ attack patterns.
 ## Screenshots
 
 ### SOC Detection Dashboard
-![Dashboard](splunk-dashboard-overview.png)
 
 ### Brute Force Detection
-![Brute Force](splunk-failed-logins.png)
 
 ### Privilege Escalation Detection
-![Privilege Escalation](splunk-privilege-escalation.png)
 
 ### Configured Alerts
-![Alerts](splunk-alerts-configured.png)
 
 ## Key Skills Demonstrated
 - SIEM deployment and configuration
