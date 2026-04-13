@@ -30,7 +30,7 @@ attack patterns.
 ### SOC Detection Dashboard
 
 ### Brute Force Detection
-
+![Brute Force](Brute Force - Failed Login Attempts.png)
 ### Privilege Escalation Detection
 
 ### Configured Alerts
