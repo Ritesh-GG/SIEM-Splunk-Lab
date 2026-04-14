@@ -1,0 +1,12 @@
+Technique: T1098 - Account Manipulation
+Data Source: Windows Security Event Log
+EventCode: 4732 (User Added to Security Group)
+SPL Logic: Any EventCode 4732 flagged by 
+           Account_Name and Group_Name
+Severity: Critical
+False Positive Risk: Low (admin group changes 
+           should be rare and pre-approved)
+Tuning Note: Alert only on privileged groups —
+             Administrators, Domain Admins, 
+             Remote Desktop Users
+MITRE ATT&CK URL: attack.mitre.org/techniques/T1098

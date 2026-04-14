@@ -1,0 +1,10 @@
+Technique: T1078 - Valid Accounts
+Data Source: Windows Security Event Log
+EventCodes: 4624 (Success) correlated with 4625 (Failure)
+SPL Logic: Accounts with both failed and successful logins 
+           indicating possible successful brute force
+Severity: Critical
+False Positive Risk: Low
+Note: In production, normalise account names across log sources
+      as Windows logs 4624 and 4625 under different name formats
+MITRE ATT&CK URL: attack.mitre.org/techniques/T1078

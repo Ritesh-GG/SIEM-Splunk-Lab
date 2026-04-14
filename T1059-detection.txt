@@ -1,0 +1,10 @@
+Technique: T1059 - Command and Scripting Interpreter
+Data Source: Windows Security Event Log
+EventCode: 4688 (New Process Created)
+SPL Logic: Filter New_Process_Name for powershell.exe 
+           and cmd.exe executions
+Severity: Medium
+False Positive Risk: High (legitimate admin use common)
+Tuning Note: Whitelist known admin accounts and 
+             scheduled tasks to reduce noise
+MITRE ATT&CK URL: attack.mitre.org/techniques/T1059

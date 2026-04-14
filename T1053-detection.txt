@@ -1,0 +1,11 @@
+Technique: T1053 - Scheduled Task/Job
+Data Source: Windows Security Event Log
+EventCode: 4698 (Scheduled Task Created)
+SPL Logic: Any new scheduled task creation flagged 
+           by Account_Name and Task_Name
+Severity: High
+False Positive Risk: Low (legitimate tasks rarely 
+           created outside maintenance windows)
+Tuning Note: Whitelist known IT admin accounts and 
+             standard software installers
+MITRE ATT&CK URL: attack.mitre.org/techniques/T1053

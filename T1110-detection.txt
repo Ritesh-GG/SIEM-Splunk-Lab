@@ -1,0 +1,7 @@
+Technique: T1110 - Brute Force
+Data Source: Windows Security Event Log
+EventCode: 4625 (Failed Logon)
+SPL Logic: 5+ failed logins within a 5-minute bucket window per account
+Severity: High
+False Positive Risk: Medium (legitimate lockouts possible)
+MITRE ATT&CK URL: attack.mitre.org/techniques/T1110
