@@ -45,3 +45,24 @@ attack patterns.
 - SPL query writing for threat detection
 - Alert creation and scheduling
 - SOC detection engineering fundamentals
+
+- ## Day 2 — MITRE ATT&CK Detection Coverage
+
+5 detection rules mapped to ATT&CK techniques built in Splunk:
+
+| Technique | ID | EventCode | Severity |
+|---|---|---|---|
+| Brute Force | T1110 | 4625 | High |
+| Valid Accounts | T1078 | 4624+4625 | Critical |
+| Command Execution | T1059 | 4688 | Medium |
+| Scheduled Task | T1053 | 4698 | High |
+| Account Manipulation | T1098 | 4732 | Critical |
+
+### ATT&CK Navigator Coverage Map
+![ATT&CK Coverage](attack-navigator-coverage.svg)
+
+### Scheduled Task Detection — T1053
+![Scheduled Task](t1053-scheduled-task-detection.png)
+
+### Account Manipulation Detection — T1098
+![Account Manipulation](t1098-account-manipulation-detection.png)
